@@ -23,7 +23,8 @@ public class SampleApplication {
 	public static void main(String[] args) {
 		logger.info("I am starting {}", args);
 		ApplicationContext context = SpringApplication.run(SampleApplication.class, args);
-		context.getBean(YamlService.class).print();
+		//context.getBean(YamlService.class).print();
+		((YamlService) context.getBean("carlos")).print();
 	}
 
 }
