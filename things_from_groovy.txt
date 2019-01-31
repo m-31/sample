@@ -1,0 +1,17 @@
+ext {
+	sut = getParam "sut", "lpt"
+	duration = getParam "duration", "1m"
+	rampUp = getParam "rampUp"
+	host = getParam "host"
+	trackingDisabled = getParam "trackingDisabled"
+	disableResultBrowsers = hasParam "disableResultBrowsers"
+	
+	testdataProviderHost = getParam "testdataProviderHost"
+	testdataProviderPort = getParam "testdataProviderPort"
+	
+	http2Enabled = getParam "http2Enabled"
+	
+	bypassRateLimit = getParam "bypassRateLimit"
+
+	protocol = "https://"
+}
