@@ -3,3 +3,13 @@ logging:
     root: INFO
     de.otto: INFO
     org.springframework: INFO
+   
+xlt:    
+  duration: 60
+  ramp-up: 60
+  host: host
+  tracking-disabled: true
+  disable-result-browsers: true
+  http2-enabled: false
+  bypass-rate-limit: bypassRateLimit
+  protocol: 'https://'

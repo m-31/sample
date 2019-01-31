@@ -1,5 +1,4 @@
 ext {
-	sut = getParam "sut", "lpt"
 	duration = getParam "duration", "1m"
 	rampUp = getParam "rampUp"
 	host = getParam "host"
